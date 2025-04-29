@@ -15,7 +15,12 @@ dayjs.extend(utc);
 dayjs.extend(timezone);
 dayjs.tz.setDefault("Asia/Kolkata");
 
-app.use(cors());
+app.use(cors({
+  origin: 'https://mranand-cse-mranand-cse-me-qtripdynami-eaym.vercel.app',
+  methods: ['GET', 'POST'],
+  allowedHeaders: ['Content-Type'],
+}));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
