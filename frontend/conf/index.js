@@ -1,5 +1,5 @@
 const config = {
-  backendEndpoint: "http://13.202.101.182:8082",
+  backendEndpoint: "https://mranand-cse-mranand-cse-me-qtripdynami.onrender.com",
   frontendEndpoint: "http://13.202.101.182:8083",
 };
 
